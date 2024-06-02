@@ -3,34 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boycott with AI</title>
+    <title>Boycott withAI</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+  </script>
   <body>
-    <!-- <header>
+    <header>
       <input type="checkbox" id="toggle" />
       <label class="navbar-toggler" for="toggle"
         ><span class="bar"></span> <span class="bar"></span>
         <span class="bar"></span
       ></label>
       <samp class="logo"
-        >Boycott with AI <samp style="color: yellow">Beta</samp>
+        >Boycott withAI <samp style="color: yellow">Beta</samp>
       </samp>
       <nav class="navigation">
         <div class="nav-list">
-          <a href="/Pages/projects/projects.html?type=Games">Games</a>
-          <a href="/Pages/projects/projects.html?type=Apps">Apps</a>
-          <a href="/Pages/projects/projects.html?type=Websites">Websites</a>
-          <a href="/Pages/about.html">About</a>
-          <a href="/social.html?social=newsletter">Join with us</a>
+          <a href="https://rami-dev.com">Home</a>
+          <a href="/Pages/projects/projects.html?type=Apps">support project</a>
+          <a href="https://forms.gle/TFj51PvqhkHx8kNx7">Feedback & bug report</a>
+          <a href="https://rami-dev.com/Pages/about.html">About</a>
+          <a href="https://rami-dev.com/social.html?social=newsletter">Join with us</a>
         </div>
       </nav>
-    </header> -->
-    <div style="display: flex; justify-content: center;" width="100%">
+    </header>
+    <main width="100%">
       <!-- ↓ The original div -->
       <div>
-        <h1>Hello World!</h1>
+        <div class="input-wrapper">
+          <input
+            style="color: black"
+            placeholder="Enter product name here"
+            class="input-style"
+            id="productName"
+            type="text"
+          />
+          <button id="submitButton" >
+            <img
+              style="margin: auto"
+              src="media/aroww.svg"
+              alt=""
+              srcset=""
+            />
+          </button>
+        </div>
       </div>
-    </div>
+      <div id="loaderBackground" hidden>
+        <div class="loader">
+          <div class="loader-inner"></div>
+        </div>
+      </div>
+    </main>
+    <div id="popup-box" class="modal">
+      <div class="content">
+          <h1 style="color: green">
+              Hello GeeksForGeeks!
+          </h1>
+          <p>Never Give Up!</p>
+          <a
+              href="#"
+              style="
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  color: #fe0606;
+                  font-size: 30px;
+                  text-decoration: none;
+              "
+              >&times;</a
+          >
+      </div>
+  </div>
+    <script src="main.js"></script>
   </body>
 </html>
