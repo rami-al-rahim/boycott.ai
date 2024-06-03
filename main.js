@@ -10,10 +10,12 @@ submitButton.addEventListener("click", () => {
 
     return;
   }
-  loaderBackground.hidden = false;
+  loaderBackground.style.display = 'flex';
 
   setTimeout(() => {
     swal(`The ${nameOfProduct} is boycott`);
-    loaderBackground.hidden = true;
+    loaderBackground.style.display = 'none';
+    productNameElement.value = "";
+    productNameElement.focus();
   }, 2000);
 });

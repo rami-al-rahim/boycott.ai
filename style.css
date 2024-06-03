@@ -154,12 +154,7 @@ main {
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(
-      254,
-      126,
-      126,
-      0.7
-  );
+  background: rgba(254, 126, 126, 0.7);
   display: none;
   align-items: center;
   justify-content: center;
@@ -174,6 +169,15 @@ main {
 
 .modal:target {
   display: flex;
+}
+
+#loaderBackground {
+  background-color: rgba(63, 63, 63, 0.5);
+  width: 100%;
+  position: fixed;
+  display: none;
+  height: 100%;
+  z-index: 1000;
 }
 @keyframes loader-animation {
   0% {
