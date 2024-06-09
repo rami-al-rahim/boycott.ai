@@ -53,7 +53,7 @@ main {
   /* margin: 0px auto; */
   margin-left: 100px;
   padding: 20px;
-  padding-top: 200px;
+  padding-top: 300px;
   max-width: 800px;
   height: 100vh;
   outline: red;
@@ -96,11 +96,49 @@ button:hover {
   scale: 1.1;
 }
 
-.howWork{
+.howWork {
   align-items: center;
   max-width: 100%;
-  height: 200vh;
+  height: 90vh;
   margin: auto;
+  background-color: #828489;
+  position: relative;
+}
+.howWork h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+.how {
+  margin-top: 20dvh;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  
+}
+.step {
+  margin-top: 20vh;
+  margin-left: 10vh;
+  background-color: #fff;
+  width: 50vh;
+  height: 40vh;
+  display: inline-block;
+  vertical-align: middle;
+}
+.step h3 {
+  color: #000;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+}
+.how img {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: 0%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
 }
 @keyframes loader-animation {
   0% {
