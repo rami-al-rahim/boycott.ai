@@ -3,7 +3,7 @@
   font-family: Changa, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   scroll-behavior: smooth;
   color: #fff;
 }
@@ -161,6 +161,10 @@ button:hover {
   margin: auto;
   display: block;
 }
+
+.howWork img {
+  margin: auto;
+}
 @keyframes loader-animation {
   0% {
     transform: rotate(0deg);
@@ -191,6 +195,23 @@ button:hover {
   }
   .navigation a {
     padding-left: 10px;
+  }
+  .howWork{
+    overflow: auto;
+  }
+  .howWork * {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .howWork img {
+    display: block;
+    margin: auto;
+    text-align: center;
+    transform: rotate(90deg);
+  }
+  .itWork{
+    height: max-content;
   }
 }
 @media (max-width: 935px) {
