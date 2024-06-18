@@ -10,7 +10,7 @@ header{background-color:#4d7ea8;width:100%;position:fixed;z-index:999;display:fl
 * a:first-of-type:hover{color:#b6c2d9}
 main{margin-left:100px;padding:20px;padding-top:300px;max-width:800px;height:100vh;outline:red}
 .input-style{width:500px;height:70px;padding:10px;border:2px solid #ccc;border-radius:5px;font-size:16px;color:#555;outline:0}
-.input-style:focus{border-color:#007bff;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}
+.input-style:focus{border-color:#4d7ea8;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}
 #toggle{display:none}
 button{font-family:PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;font-size:1rem;align-items:center;height:48px;border-radius:.4rem;font-weight:600;padding:0 1.2rem;color:#fff;border:none;cursor:pointer;background:#4d7ea8}
 button:hover{background:#828489;scale:1.1}
@@ -20,7 +20,7 @@ button:hover{background:#828489;scale:1.1}
 .step{margin-top:20vh;margin-left:10vh;background-color:#fff;width:50vh;height:40vh;display:inline-block;vertical-align:middle}
 .step h3{color:#000;display:block;margin:auto;text-align:center;height:100%;padding:5px;font-weight:400}
 .how img{margin-top:20vh;margin:auto 0;margin-right:0;width:50px;height:50px;padding:0}
-.itWork{align-items:center;max-width:100%;height:90vh;margin:auto;background-color:#9e90a2;position:relative}
+.itWork{align-items:center;max-width:100%;min-height:90vh;height:fit-content;background-color:#9e90a2;position:relative}
 .itWork h2{text-align:center;color:#fff;font-size:50px}
 .itWork .how{margin-top:15dvh}
 .itWork iframe{margin:auto;display:block}
@@ -54,8 +54,8 @@ nav .nav-list a{padding-left:35px}
 header .navbar-toggler{display:grid!important}
 .logo{text-align:center;margin:auto}
 }
-header .navbar-toggler{display:none;height:min-content;margin:18px -10px 0 0;cursor:pointer}
-header .navbar-toggler .bar{width:40px;height:5px;margin-bottom:10px;background:#007bff;border-radius:10%;transition:.4s}
+header .navbar-toggler{display:none;height:min-content;margin:18px -10px 0 0;cursor:pointer;color:#272932}
+header .navbar-toggler .bar{width:40px;height:5px;margin-bottom:10px;background:#272932;border-radius:10%;transition:.4s}
 header .navbar-toggler .bar :hover{background:#4caf50}
 input:checked~nav .nav-list{transform:translateY(0);visibility:visible}
 input:checked~nav .navbar-toggler{margin-top:35px}
