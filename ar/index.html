@@ -4,136 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Stockend</title>
+    <title>طريق المقاطعة</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6afaec7e55.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6B8YLBB8K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-G6B8YLBB8K');
+    </script>
+    </script>
 </head>
 
 <body dir="rtl">
-    <headers dir="ltr">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#">Stockend</a> <button
-                class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
+
+    <header dir="rtl" style="position: sticky;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">طريق المقاطعة</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#Benefits">الميزات</a></li>
                     <li class="nav-item"><a class="nav-link" href="#massage">رسالة من المطور</a></li>
-                    <li class="nav-item"></li>
                 </ul>
             </div>
         </nav>
-    </headers>
+    </header>
+
     <div id="Home" class="hero-section">
         <div class="container">
             <div dir="rtl" class="row">
                 <div class="col-md-6 hero-text">
                     <h1>قاطع ولا تهتم</h1>
-                    <p>مع موقعنة الويب يمكن اكتشاف الشركات المقاطعة </p>
-                    <button id="submit" onclick="submit"
-                        class="btn btn-primary">ابدأ الستخدام</button>
-                    <div>
-                
-                    </div>
+                    <p>مع موقعنا، يمكنك اكتشاف الشركات المقاطعة بسهولة.</p>
+                    <button id="submit" class="btn btn-primary">ابدأ الاستخدام</button>
                 </div>
-                <div class="col-md-6 hero-image" id="ss" style="width: auto; height: auto;"><img id="heroImage" style=""
-                        src="images/hero.svg" alt="Stock Image"></div>
-
-                <div id="heroImageMobile"> <img style="width: 100%;height: 100%; scale: 1.5; margin: 0;"
-                        src="images/hero.svg" alt="Stock Image"></div>
+                <div class="col-md-6 hero-image" id="ss">
+                    <img id="heroImage" src="images/hero.svg" alt="Stock Image">
+                </div>
             </div>
         </div>
     </div>
+
     <section id="Benefits" style="background-color:#f8f9fa">
-        <h2 style="text-align:center">Benefits</h2>
+        <h2 style="text-align:center">الميزات</h2>
         <div class="benefit-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 benefit-item"><i class="fas fa-envelope-open-text benefit-icon"></i>
-                        <h3 class="benefit-title">fits on your needs</h3>
-                        <p class="benefit-description">with your customized select stock trackers</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 benefit-item">
+                        <i class="fa-solid fa-database benefit-icon"></i>
+                        <h3 class="benefit-title">قاعدة بيانات</h3>
+                        <p class="benefit-description">لدينا قاعدة بيانات تضم أكثر من 2000 شركة</p>
                     </div>
-                    <div class="col-md-4 benefit-item"><i class="fa-solid fa-newspaper benefit-icon"></i>
-                        <h3 class="benefit-title">Stay up to date</h3>
-                        <p class="benefit-description">With daily report you you can see stock market going</p>
-                    </div>
-                    <div class="col-md-4 benefit-item"><i class="fa-solid fa-arrow-trend-up benefit-icon"></i>
-                        <h3 class="benefit-title">catch the opportunity</h3>
-                        <p class="benefit-description">With daily report you you can see opportunities</p>
+                    <div class="col-md-4 benefit-item">
+                        <i class="fa-solid fa-gauge benefit-icon"></i>
+                        <h3 class="benefit-title">سريع</h3>
+                        <p class="benefit-description">يمكنك الوصول إلى التطبيق في أي مكان في غضون ثواني وعمل فحص</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section class="pricing-section" id="Pricing">
+    <section id="massage" class="message-section">
         <div class="container">
-            <h2 class="mb-5">خطط التسعير (يمكن تعديلها في المستقبل)</h2>
+            <h2 style="text-align:center">رسالة من المطور</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="pricing-card">
-                        <h3>مجاني</h3>
-                        <div class="price">$0<span class="small">/month</span></div>
-                        <p>الوصول الأساسي إلى خدماتنا</p>
-                        <ul class="list-unstyled">
-                            <li>5 فحوصات يوميا</li>
-                        </ul><a href="#" class="btn btn-primary mt-3">ابدأ الاستخدام</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-card">
-                        <h3>الخطة القياسية</h3>
-                        <div class="price">$5<span class="small">/بالشهر</span></div>
-                        <p>Access to standard features</p>
-                        <ul class="list-unstyled">
-                            <li>5 free + 15 stock taking</li>
-                            <li>10 free + 30 sends/month</li>
-                            <li>no ads</li>
-                        </ul><a href="#" class="btn btn-primary mt-3">Sign Up</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-card">
-                        <h3>خطة متميزة </h3>
-                        <div class="price">20$<span class="small">/month</span></div>
-                        <p>Get best experience</p>
-                        <ul class="list-unstyled">
-                            <li>5 free + 35 stock taking</li>
-                            <li>10 free + 60 sends/month</li>
-                            <li>no ads</li>
-                        </ul><a href="#" class="btn btn-primary mt-3">Sign Up</a>
-                    </div>
+                <div class="col-md-12">
+                    <p>لقد قمت بإنشاء تطبيق مدقق المقاطعة هذا لأنني أعتقد أن المستهلكين يستحقون ذلك
+
+                        الشفافية عندما يتعلق الأمر بمشترياتهم. في كثير من الأحيان، نشتري المنتجات دون
+
+                        وإدراك التأثير المحتمل لهذه الشركات على العالم. هذا النقص
+
+                        الوعي يمكن أن يؤدي إلى دعم الشركات بممارسات غير أخلاقية تضر
+
+                        البيئة أو انتهاك حقوق الإنسان أو استغلال العمال.</p>
+                    <p>تحيات،<br>فريق التطوير</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
+    <section id="ContactUs" class="contact-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 contact-image">
+                    <img src="images/hero.svg" alt="Contact Image">
+                </div>
+                <div class="col-md-6 contact-text">
+                    <h2>اتصل بنا</h2>
+                    <p>نحن هنا لمساعدتك. إذا كان لديك أي استفسارات أو تحتاج إلى دعم، يرجى عدم التردد في الاتصال بنا.</p>
+                    <button class="btn btn-primary" onclick="window.location.href='mailto:support@rami-dev.com'">إرسال
+                        بريد إلكتروني</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container text-center">
-            <p>&copy; 2024 rami-dev All rights reserved.</p>
+            <p>&copy; 2024 rami-dev جميع الحقوق محفوظة.</p>
         </div>
     </footer>
-    <script type="module">// Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
 
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-            apiKey: "AIzaSyD1NWA8rU7vObJLsWsEEmjLIc3RGc8xXMI",
-            authDomain: "stockend-b9130.firebaseapp.com",
-            projectId: "stockend-b9130",
-            storageBucket: "stockend-b9130.appspot.com",
-            messagingSenderId: "287074175209",
-            appId: "1:287074175209:web:238ab2a75da1a050330878",
-            measurementId: "G-5PHL3TC40R"
-        };
 
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);</script>
-    <script type="module" src="mian.js"></script>
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const source = urlParams.get('source')
+        gtag('event', 'screen_view', {
+            'app_name': 'landing_ar',
+            'screen_name': 'landing_ar'
+        });
+
+        function openApp() {
+            gtag('event', 'open_app', {
+                "value": 1
+            });
+            window.open("https://check.boycott-withai.rami-dev.com/", "_self")
+        }
+
+        document.getElementById('submit').onclick = openApp
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
